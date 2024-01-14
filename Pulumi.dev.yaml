@@ -1,0 +1,5 @@
+config:
+  IaC_GolfProject:errorDocument: error.html
+  IaC_GolfProject:indexDocument: index.html
+  IaC_GolfProject:path: ./www
+  azure-native:location: SouthCentralUS
