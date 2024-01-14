@@ -7,7 +7,7 @@ pipeline {
                 git url: "https://github.com/joggerspams/GolfProject.git",
                     // Set your credentials id value here.
                     // See https://jenkins.io/doc/book/using/using-credentials/#adding-new-global-credentials
-                    #credentialsId: "yourCredentialsId",
+                    // credentialsId: "yourCredentialsId",
                     // You could define a new stage that specifically runs for, say, feature/* branches
                     // and run only "pulumi preview" for those.
                     branch: "main"
